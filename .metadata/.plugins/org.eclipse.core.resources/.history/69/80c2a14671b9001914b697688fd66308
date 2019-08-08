@@ -1,0 +1,41 @@
+/**
+ * 
+ */
+package br.com.elaborata.relampago;
+
+/**
+ * @author Leo
+ *
+ */
+public class Som {
+
+	/**
+	 * @param args
+	 */
+	
+	private final Float velocidadeDoSom = 2F; 
+	
+	private void imprime(String msg){
+		
+		System.out.println(msg);
+		
+	}
+	
+	public void calculaDistancia(Float tempoDePropagacao){
+		Float distancia;
+		distancia = tempoDePropagacao * this.velocidadeDoSom;
+		
+		imprime(distancia.toString());
+		return distancia.toString();
+	}
+	
+	public static void main(String[] args) {
+		Som som = new Som();
+		Teclado teclado = new Teclado();
+		
+		som.calculaDistancia(teclado.leFloat());
+		
+	}
+	
+
+}

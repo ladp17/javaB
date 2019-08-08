@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.elaborata.relampago;
+
+import java.util.Scanner;
+
+/**
+ * @author Leo
+ *
+ */
+public class Teclado {
+	private Scanner scanner = new Scanner(System.in);
+	
+	public Double leFloat(){
+		
+		System.out.println("digite um Double");
+		return scanner.nextDouble();
+		
+	}
+
+}

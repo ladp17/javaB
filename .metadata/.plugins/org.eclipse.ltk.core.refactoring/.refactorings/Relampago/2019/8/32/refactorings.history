@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;br.com.elaborata.relampago.LeTeclado&apos; to &apos;Teclado&apos;&#x0A;- Original project: &apos;Relampago&apos;&#x0A;- Original element: &apos;br.com.elaborata.relampago.LeTeclado&apos;&#x0A;- Renamed element: &apos;br.com.elaborata.relampago.Teclado&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LeTeclado&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;br.com.elaborata.relampago{LeTeclado.java[LeTeclado" matchStrategy="1" name="Teclado" qualified="false" references="true" similarDeclarations="false" stamp="1565220742660" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package br.com.elaborata.relampago;
+
+import java.util.Scanner;
+
+/**
+ * @author Leo
+ *
+ */
+public class LeTeclado {
+	private Scanner scanner = new Scanner(System.in);
+	
+	public Float leTempo(){
+		
+		return scanner.nextFloat();
+		
+	}
+
+}
