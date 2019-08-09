@@ -6,15 +6,23 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Double" key="selection"/>
+		<item value="teclado" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
-		<item value="true" key="wholeword"/>
+		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="teclado"/>
+			<item value="Integer"/>
+			<item value="Caracter"/>
+			<item value="Double"/>
 			<item value="Float"/>
 		</list>
 		<list key="replacehistory">
+			<item value="bool1"/>
+			<item value="Caracter"/>
+			<item value=""/>
+			<item value="Integer"/>
 			<item value="Double"/>
 		</list>
 	</section>
@@ -22,7 +30,7 @@
 		<item value="337" key="DIALOG_WIDTH"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="424" key="DIALOG_HEIGHT"/>
-		<item value="773" key="DIALOG_X_ORIGIN"/>
-		<item value="174" key="DIALOG_Y_ORIGIN"/>
+		<item value="901" key="DIALOG_X_ORIGIN"/>
+		<item value="166" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

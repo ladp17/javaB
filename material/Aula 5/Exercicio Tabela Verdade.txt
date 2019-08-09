@@ -1,0 +1,12 @@
+Criar um programa que recebe dois valores booleanos e monta a tabela verdade.
+
+Depois de informar os valores e popular as variáveis o programa deverá utilizar os seguintes operadores:
+
+	&
+	|
+	!
+	^
+
+Imprimir a tabela verdade no console.
+
+
