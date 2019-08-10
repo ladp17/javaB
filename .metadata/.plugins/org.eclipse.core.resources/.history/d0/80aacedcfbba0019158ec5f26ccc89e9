@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package br.com.elaborata.lista2.ex2;
+
+/**
+ * @author Leo
+ *
+ */
+public class Media {
+	private Integer numeroElementos;	
+	
+	public void Media(){}
+	public static void main(String[] args) {
+		Media media = new Media();
+		
+		
+		
+	}
+
+}

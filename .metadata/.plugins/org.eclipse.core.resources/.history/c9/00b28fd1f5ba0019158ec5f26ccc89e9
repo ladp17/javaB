@@ -1,0 +1,54 @@
+/**
+ * 
+ */
+package br.com.elaborata.ex1;
+
+/**
+ * @author Leo
+ *
+ */
+public class ImprimeDivisiveis {
+	
+	private final Integer valInicio = new Integer(0);
+	private final Integer valFim = new Integer(100);
+
+	/**
+	 * @param args
+	 */
+	
+	public Boolean ehDivisivel(Integer divisor, Integer dividendo){
+		
+		if ((dividendo.intValue() % divisor.intValue()) == 0 ) {
+			
+			return true;
+			
+		} else {
+			
+			return false;
+
+		}
+		
+	}	
+	
+	public void imprimeInteger(Integer saida){
+		
+		System.out.println(saida);
+		
+	}
+	
+	public void imprimeDivisiveis(Integer divisor){
+		
+		for (int i = valInicio; i <= valFim; i++) {
+			
+			this.imprimeInteger(this.ehDivisivel(divisor, i));
+			
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+	
+
+	}
+
+}

@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package br.com.elaborata.lista3.ex2;
+
+import java.util.ArrayList;
+
+/**
+ * @author Leo
+ *
+ */
+
+public class Menu {
+	private Teclado teclado = new Teclado();
+	private ArrayList<Item> menu = new ArrayList<Item>();
+	
+	public void criaMenu(){
+		
+		{
+			Item item = new Item();
+			item.setNome("X-Salada");
+			item.setPreco(5.30);
+			this.menu.add(item);
+		}
+
+		{
+			Item item = new Item();
+			item.setNome("X-Bacon");
+			item.setPreco(6.00);
+			this.menu.add(item);
+		}
+
+		
+	}
+	
+	public void imprimeMenu() {
+		
+		do {
+			
+			for (Item item : menu) {
+				
+				teclado.imprime(item);
+				
+			}
+			
+		} while (true);
+		
+	}
+		
+	
+	
+}
