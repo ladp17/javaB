@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package br.com.elaborata.lista4.ex1;
+
+import br.com.elaborata.lista3.ex2.Teclado;
+
+/**
+ * @author Leo
+ *
+ */
+public class Quadrado {
+
+	private final Integer expoente = 2;
+	
+	public Integer calculaQuadradado(Integer numero){
+		Double resultado;
+		
+		resultado = Math.pow(numero, expoente);		
+		
+		return resultado.intValue();
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Quadrado quadrado = new Quadrado();
+		Teclado teclado = new Teclado();
+		
+		teclado.imprime("digte um inteiro");
+		quadrado.calculaQuadradado(teclado.leInteger());
+	}
+
+}
