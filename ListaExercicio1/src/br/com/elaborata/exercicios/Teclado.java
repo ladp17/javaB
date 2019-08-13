@@ -17,6 +17,18 @@ public class Teclado {
 		return scanner.nextInt();
 		
 	}
+	
+	public Double leDouble() {
+		
+		return scanner.nextDouble();
+		
+	}
+	
+	public String leString(){
+		
+		return scanner.next();
+		
+	}
 
 	public void imprime(Integer saida){
 			

@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class ImprimeEntre {
+	
+	public void imprimeEntre(Integer n1, Integer n2) {
+		
+		for (int i = n1; i < n2 - 1; i++){
+			
+			System.out.println(i);
+			
+		} 
+		
+	}
+
+}

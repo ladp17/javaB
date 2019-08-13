@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Numero {
+	
+	private Double numero;
+	
+	public Numero (Double numero){
+		
+		this.numero = numero;
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Matriz {
+	private Integer tamanho;
+	
+	public Matriz(Integer tamanho){
+		
+		this.tamanho = tamanho;
+		
+	} 
+	
+	
+
+}
