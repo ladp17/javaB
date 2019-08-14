@@ -9,7 +9,7 @@ package br.com.elaborata.exercicios;
  */
 public class CalculaTabuada {
 	
-	private final Integer fimTabuada = 10;
+	private final Integer fimTabuada = 100000;
 	
 	public void calculaTabuada(Integer numero) {
 		
