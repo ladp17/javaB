@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.elaborata.slide7;
+
+/**
+ * @author Leo
+ *
+ */
+public class Exercicio2_2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

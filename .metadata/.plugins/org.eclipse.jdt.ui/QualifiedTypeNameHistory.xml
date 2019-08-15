@@ -7,9 +7,6 @@
 <fullyQualifiedTypeName name="br.com.elaborata.relampago.Som"/>
 <fullyQualifiedTypeName name="br.com.elaborata.relampago.Teclado"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.Boolean"/>
-<fullyQualifiedTypeName name="java.lang.Character"/>
 <fullyQualifiedTypeName name="br.com.elaborata.ex1.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.ex1.Bool"/>
 <fullyQualifiedTypeName name="br.com.elaborata.ex2.Teclado"/>
@@ -18,8 +15,6 @@
 <fullyQualifiedTypeName name="br.com.elaborata.lista2.ex1.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.lista2.ex1.ImprimeImpares"/>
 <fullyQualifiedTypeName name="br.com.elaborata.lista2.ex2.Media"/>
-<fullyQualifiedTypeName name="javax.imageio.ImageReadParam"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.tools.DiagnosticListener"/>
 <fullyQualifiedTypeName name="br.com.elaborata.lista3.ex2.Menu"/>
@@ -28,7 +23,25 @@
 <fullyQualifiedTypeName name="br.com.elaborata.lista2.ex2.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.lista3.ex2.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.lista1.ex1.Teclado"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Exercicio1"/>
+<fullyQualifiedTypeName name="br.com.elaborata.exercicios.CalculaTabuada"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="br.com.elaborata.exercicios.ImprimeEntre"/>
+<fullyQualifiedTypeName name="javax.imageio.ImageReadParam"/>
+<fullyQualifiedTypeName name="br.com.elaborata.exercicios.Usuario"/>
+<fullyQualifiedTypeName name="br.com.elaborata.exercicios.Numero"/>
+<fullyQualifiedTypeName name="br.com.elaborata.exercicios.Teclado"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="br.com.elaborata.exercicios.Matriz"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide7.Str"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide7.Teclado"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide7.Usuario"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide8.Funcionario"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide8.Produto"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package br.com.elaborata.slide7;
+
+/**
+ * @author Leo
+ *
+ */
+public class Usuario {
+	private String login;
+	
+	public void criaUsuario(String login){
+		
+		this.login = login;
+		
+	}	
+	
+	public Boolean verificaLogin(){
+		Teclado teclado = new Teclado();
+		String login;
+		
+		System.out.println("digite um login");
+		login = teclado.leString();
+		
+		return (this.login.equals(login))? true : false;		
+		
+	}
+	
+}

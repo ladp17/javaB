@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package br.com.elaborata.slide7;
+
+/**
+ * @author Leo
+ *
+ */
+public class String {
+	
+	public Integer contaCaracterIgnoraEspaco() {
+		
+		return 1;
+	}
+
+}

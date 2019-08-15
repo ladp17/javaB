@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package br.com.elaborata.slide7;
+
+/**
+ * @author Leo
+ *
+ */
+public class Usuario {
+	private String nomeCompleto;
+	private String login;	
+	
+	public void setLogin(String login){
+		
+		this.login = login;
+		
+	}	
+	
+	public String getNome() {
+		String primeiroNome;
+		
+		primeiroNome = this.nomeCompleto.substring(0, this.nomeCompleto.indexOf(0));
+		
+		return primeiroNome;
+	}
+
+	public void setNomeCompleto(String nomeCompleto) {
+		this.nomeCompleto = nomeCompleto;
+	}
+
+	public Boolean verificaLogin(){
+		Teclado teclado = new Teclado();
+		String login;
+		
+		System.out.println("digite um login");
+		login = teclado.leString();
+		
+		return (this.login.equals(login))? true : false;		
+		
+	}
+	
+	
+	
+}

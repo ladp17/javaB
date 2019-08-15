@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package br.com.elaborata.slide7;
+
+/**
+ * @author Leo
+ *
+ */
+public class Str {
+	private String str;
+	
+	public Str(String str){
+		
+		this.str = str;
+		
+	}
+	
+	public Integer contaCaracteresIgnoraEscpaco() {
+		Integer i;
+		Integer cont;
+		
+		for (i = 0; i < str.length(); i++) {
+			
+			System.out.println(str.charAt(i));
+			
+		}
+		
+		return 0;
+		
+	}
+	
+	
+}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.elaborata.slide8;
+
+/**
+ * @author Leo
+ *
+ */
+public class Produto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
