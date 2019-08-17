@@ -1,0 +1,17 @@
+package br.com.elaborata.exercicio.sala.app;
+
+import java.util.ArrayList;
+
+public class Professor extends Pessoa{
+
+	ArrayList<Pessoa> alunos = new ArrayList<Pessoa>();
+	
+	public void cadastraProfessor() {
+		Pessoa professor = new Pessoa();
+		
+		professor.cadastra();
+		alunos.add(professor);
+		
+	}
+	
+}

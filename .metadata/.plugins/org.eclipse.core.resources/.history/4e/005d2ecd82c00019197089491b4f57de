@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Aluno {
+	private Double media;
+	private final Integer numeroDeNotas = 3;
+
+	public void setMedia() {
+		Teclado teclado = new Teclado();
+		Double soma = 0;
+		
+		for (int i = 0; i < numeroDeNotas; i++) {
+			
+			soma += teclado.leNota();
+			
+		}
+		
+		this.media = soma / numeroDeNotas;
+		
+	}
+	
+}

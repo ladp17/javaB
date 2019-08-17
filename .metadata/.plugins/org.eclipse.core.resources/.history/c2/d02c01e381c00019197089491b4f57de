@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author Leo
+ *
+ */
+public class Teclado {
+	Scanner scanner = new Scanner(System.in);
+	
+	public Integer leInt(){
+		
+		return scanner.nextInt();
+		
+	}
+	
+	public Double leNota() {
+		Double nota;
+		
+		nota.valueOf(JOptionPane.showInputDialog("digite uma nota"));
+		
+		return nota;
+		
+	}
+	
+}

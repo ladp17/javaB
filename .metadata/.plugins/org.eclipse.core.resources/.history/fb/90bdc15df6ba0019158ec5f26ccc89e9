@@ -1,6 +1,0 @@
-package br.com.elaborata.ex2;
-
-public class Snippet {
-		private final Integer divisor = new Integer(3);
-}
-

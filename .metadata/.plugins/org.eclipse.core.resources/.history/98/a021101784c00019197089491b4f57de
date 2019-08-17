@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Exercicio2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		final Integer numeroDeNotas = 3;
+		
+		
+	}
+
+}

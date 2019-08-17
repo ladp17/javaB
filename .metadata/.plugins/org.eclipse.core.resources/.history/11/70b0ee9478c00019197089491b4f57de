@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicio.sala.app;
+
+import java.util.ArrayList;
+
+/**
+ * @author Leo
+ *
+ */
+public class Curso {
+	private String descricao;
+	
+ArrayList<Curso> cursos = new ArrayList<Curso>();
+	
+	public void cadastra() {
+		Teclado teclado = new Teclado();
+		
+		System.out.println("digite uma descricao");
+		this.descricao = teclado.leLinha();
+		
+		
+		cursos.add();
+		
+	}
+	
+}

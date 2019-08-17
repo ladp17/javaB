@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicio.sala.app;
+
+/**
+ * @author Leo
+ *
+ */
+public class Menu {
+	Aluno aluno = new Aluno();
+	Professor professor = new Professor();
+	Curso curso = new Curso();
+	
+	
+	public void imprimeMenu(){
+		Teclado teclado = new Teclado();
+		Integer escolha;
+		
+		System.out.println("1 - Cadastro de Alunos");
+		System.out.println("2 - Cadastro de Professores");
+		System.out.println("3 - Cadastro de Cursos");
+		
+		escolha = teclado.leInteger();
+		
+		switch (escolha) {
+		case 1:
+			
+			
+			
+			break;
+
+		case 2:
+			
+			break;
+
+		case 3:
+			
+			break;
+
+			
+		default:
+			break;
+		}
+		
+	}
+	
+}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Aluno {
+	private Double media;
+	private final Integer numeroDeNotas;
+
+	public void setMedia() {
+		
+		
+		
+	}
+	
+}

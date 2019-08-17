@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+import java.util.Scanner;
+
+/**
+ * @author Leo
+ *
+ */
+public class Teclado {
+	Scanner scanner = new Scanner(System.in);
+	
+	public Integer leInt(){
+		
+		return scanner.nextInt();
+		
+	}
+	
+	
+}

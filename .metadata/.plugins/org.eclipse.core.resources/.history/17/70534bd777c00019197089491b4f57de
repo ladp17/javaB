@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicio.sala.app;
+
+import java.util.ArrayList;
+
+/**
+ * @author Leo
+ *
+ */
+public class Aluno extends Pessoa{
+
+	ArrayList<Pessoa> alunos = new ArrayList<Pessoa>();
+	
+	public void cadastra() {
+		Pessoa aluno = new Pessoa();
+		
+		aluno.cadastra();
+		alunos.add(aluno);
+		
+	}
+	
+}

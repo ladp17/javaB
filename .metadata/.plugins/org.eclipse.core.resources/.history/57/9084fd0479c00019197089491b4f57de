@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicio.sala.app;
+
+/**
+ * @author Leo
+ *
+ */
+public class Menu {
+
+	public void imprimeMenu(){
+		
+		System.out.println("Cadastro de Alunos");
+		System.out.println("Cadastro de Professores");
+		System.out.println("Cadastro de Cursos");
+		
+	}
+	
+}

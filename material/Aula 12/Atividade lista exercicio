@@ -1,0 +1,25 @@
+	Fabio
+1 - Receber nome e idade e verificar através de switch se é maior de idade
+
+2 - Informar as notas no main e enviar as notas para um método que somará e calculará a média imprimindo na tela
+
+	Leonardo
+1 - No main receber nome e idade e enviar a idade por parametro num método que verifica se é maior de idade e imprime na tela.
+
+2 - Informar as notas por JOPtionPane e enviar a soma como parametro de um método que calculará e retornará a média onde deverá ser impressa.
+
+3 - Acrescentar um método na condicional do em recuperação que recebe a nova nota e veifica se aprovado ou não.
+
+4 - Solicitar as duas idades e passar como parametro para o metodo que irá verificar qual a maior idade e mostrará na tela.
+
+
+	Clemerson
+1 - Receber a idade e verificar se for >=18 imprimir na tela
+
+2 - Receber 3 notas, somar e criar um método passando a soma. O método irá calcular a média e retornar para a impressão na tela.
+
+	Jorge
+1 - Receber a idade e cria um metodo passando a idade que vai verificar se for >=18 e imprimir na tela
+
+	Flavio
+?????
