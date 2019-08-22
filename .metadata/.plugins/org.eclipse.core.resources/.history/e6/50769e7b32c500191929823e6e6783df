@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class FaturaCartao {
+	
+	private CartaoDeCredito cartaoDeCredito;
+
+	
+	
+}

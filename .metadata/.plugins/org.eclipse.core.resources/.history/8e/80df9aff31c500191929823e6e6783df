@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		CartaoDeCredito cartaoDeCredito = new CartaoDeCredito();
+		Cliente cliente = new Cliente();
+		Agencia agencia = new Agencia();
+		Conta conta = new Conta(agencia);
+		
+		cartaoDeCredito.setCliente(cliente);
+		
+		conta.depositar(20.00);
+		System.out.println(conta.getSaldo());
+		
+	}
+
+}

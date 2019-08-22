@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class Agencia {
+
+	private Integer numero;
+
+	public Integer getNumero() {
+		return numero;
+	}
+
+	public void setNumero(Integer numero) {
+		this.numero = numero;
+	}
+	
+}

@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package br.com.elaborata.exercicios;
+
+/**
+ * @author Leo
+ *
+ */
+public class CartaoDeCredito {
+
+	private Integer numero;
+	private String validade;
+	
+}
