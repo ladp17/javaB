@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package br.com.elaborata;
+
+/**
+ * @author Leo
+ *
+ */
+public class ExercicioHeranca {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Passeio passeio = new Passeio(True, null);
+		Carga carga = new Carga(200);
+		
+		
+	}
+
+}

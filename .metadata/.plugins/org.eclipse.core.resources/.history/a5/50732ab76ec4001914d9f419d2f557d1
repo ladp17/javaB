@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package br.com.elaborata;
+
+/**
+ * @author Leo
+ *
+ */
+public class Carga extends Veiculo {
+
+	private Double capacidade;
+	
+	public Carga(Double capacidade) {
+		
+		this.capacidade = capacidade;
+		
+	}
+
+	public Double getCapacidade() {
+		return capacidade;
+	}
+	
+	public Double calculaValorLocacao(){
+		final Double taxaFixa = 333.00;
+		final Double taxaKm = 4.25;
+		
+		return taxaFixa + taxaKm * this.getKmRodado();
+		
+	}
+
+}

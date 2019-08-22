@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package br.com.elaborata;
+
+/**
+ * @author Leo
+ *
+ */
+public class Carga extends Veiculo {
+
+	private Double capacidade;
+	
+public Carga(Double capacidade) {
+		
+		this.capacidade = capacidade;
+		
+	}
+	
+}

@@ -47,9 +47,11 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Aluno"/>
-<fullyQualifiedTypeName name="java.lang.Boolean"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Teclado"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Usuario"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="br.com.elaborata.Passeio"/>
+<fullyQualifiedTypeName name="br.com.elaborata.Carga"/>
 </qualifiedTypeNameHistroy>

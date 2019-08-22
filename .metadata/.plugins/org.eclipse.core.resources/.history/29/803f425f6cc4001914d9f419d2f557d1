@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package br.com.elaborata;
+
+/**
+ * @author Leo
+ *
+ */
+public class Passeio extends Veiculo {
+
+	private Boolean arCondicionado;
+	
+	private Integer numeroDePortas;
+	
+}

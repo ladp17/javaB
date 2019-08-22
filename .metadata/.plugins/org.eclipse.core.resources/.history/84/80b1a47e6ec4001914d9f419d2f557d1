@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package br.com.elaborata;
+
+/**
+ * @author Leo
+ *
+ */
+public class ExercicioHeranca {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Passeio passeio = new Passeio(null, null);
+		Carga carga = new Carga(null);
+		
+		System.out.println(passeio.setKmRodado(2.0));
+		System.out.println(carga.setKmRodado(2.0));
+		
+		
+		
+	}
+
+}

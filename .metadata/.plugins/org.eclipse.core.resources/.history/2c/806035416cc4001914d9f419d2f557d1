@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package br.com.elaborata;
+
+/**
+ * @author Leo
+ *
+ */
+public class Passeio extends Veiculo {
+
+}
