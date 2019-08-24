@@ -1,0 +1,25 @@
+  1 Criar as classes Veiculo, VeiculoPasseio e VeiculoCarga;
+
+  2 Os atributos genéricos (em comum entre as classes VeiculoPasseio e VeiculoCarga) devem ser declarados na classe Veiculo;
+
+  3 Os atributos específicos devem ser declarados nas classes 
+    VeiculoPasseio e VeiculoCarga;
+
+  4 O valor da locação (método calculaValorLocacao()) deve ser implementado da seguinte maneira:
+    
+  5 Para veículos de passeio, deverá ser cobrada uma
+	taxa fixa de R$ 150,00 + 
+	R$ 3,75 por Km rodado + 
+	R$ 235,00 se o veículo possuir ar condicionado;
+
+  6 Para veículos de carga, deverá ser cobrada uma 
+        taxa fixa de R$ 333,00 +
+	R$ 4,25 por Km rodado;
+
+  7 Você deverá criar um objeto do tipo VeiculoPasseio e outro do tipo VeiculoCarga;
+
+  8 Os atributos em branco, deverão ser passados como argumento do construtor;
+
+  9 Os atributos em cinza, deverão ser preenchidos através dos métodos set...();
+
+  10 Por fim, imprimir o valor da locação

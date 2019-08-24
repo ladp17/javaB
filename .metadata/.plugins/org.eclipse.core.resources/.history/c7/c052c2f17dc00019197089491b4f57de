@@ -1,5 +1,0 @@
-package br.com.elaborata.exercicios;
-
-public class Teclado extends Scanner{
-
-}

@@ -1,0 +1,49 @@
+O DAO (data acess object) é um padrão de acesso à dados, serve para desacoplar a camada de negócio (por exemplo) da camada de persitência.
+
+O VO (value object) é comumente aliado ao DAO para realizar o transporte de objetos à camada de acesso à dados. Geralmente (mas não sempre) refletem as mesmas propriedades das tabelas que se quer manter.
+
+O PO (persistent object) possui seus campos iguais o da tabela do bd.
+
+O BO são Business Object. Objetos que estão relacionados à camada de negócio da aplicação (ou caso de uso...). 
+
+Temos normalmente 3 definições para VO ( Value Object )
+
+1. VO é um objeto sem comportamento, apenas com os dados. Geralmente vai ter um ou mais BO (Business Object) trabalhando com ele...
+exemplo:
+
+    class CarroVO {  
+        private String marca;  
+        private String modelo;  
+        private int ano;  
+        //getters, setters e construtores  
+    }  
+      
+    class CarroBO {  
+        private static void estacionar(CarroVO carro, Vaga vaga) {}  
+        private static void contarQuilometragem(CarroVO carro) {};  
+    }  
+
+2. VO é um DTO (Data Transfer Object), ou seja, um objeto para transferir dados entre camadas/processos para reduzir o número de chamadas a métodos (o que pode ser muito útil em caso de chamadas remotas como RMI)
+exemplo:
+    class Pessoa {  
+        private int idade;  
+        private String nome;  
+        private Endereco endereço;  
+        //faz outras coisas   
+    }  
+      
+    class PessoaDTO {  identificado
+        private int idade;  
+       	private String nome;  
+       	private String rua;  
+       	private String cidade;  
+       	private String estado;  
+   }  
+
+repare que a classe DTO condensa todas informações nos tipos básicos. assim vc não precisa passar as classes de seu modelo, mas uma classe que agrupe informações delas
+
+
+3. VO na terceira definição acho é um pouco mais complexo de explicar. Tem a ver com o conceito de identidade. Um Value Object nesta definição não possui identidade, ele só importa pelo que vale. Vou tentar dar um exemplo:
+Se eu tenho 100 reais na carteira e vc 100 reais, e trocarmos...está tudo bem... não importa que mudaram as cédulas...o importante é o valor...
+Mas se eu tenho um filho e vc tem um filho... não dá pra gente trocar e continuar na mesma... meu filho é um só...ele é importante pelo que ele é (identidade) e não pelo que ele vale (ou pela altura, idade, etc...)
+O conceito de VO pode variar de sistema pra sistema... pro banco central, cada célula pode ter sua importância (pra rastrear um assalto por exemplo)... mas basicamente é isso...

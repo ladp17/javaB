@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSpinnerUI"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="br.com.elaborata.pojo.ExemploPOJO"/>
-<fullyQualifiedTypeName name="br.com.elaborata.relampago.Som"/>
-<fullyQualifiedTypeName name="br.com.elaborata.relampago.Teclado"/>
 <fullyQualifiedTypeName name="java.lang.Float"/>
 <fullyQualifiedTypeName name="br.com.elaborata.ex1.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.ex1.Bool"/>
@@ -36,18 +31,15 @@
 <fullyQualifiedTypeName name="java.lang.Process"/>
 <fullyQualifiedTypeName name="br.com.elaborata.slide8.Produto"/>
 <fullyQualifiedTypeName name="java.lang.Character"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicio.sala.app.Pessoa"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicio.sala.app.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicio.sala.app.Aluno"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicio.sala.app.Professor"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicio.sala.app.Curso"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicio.sala.app.Menu"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Aluno"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Teclado"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Usuario"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.elaborata.Passeio"/>
 <fullyQualifiedTypeName name="br.com.elaborata.Carga"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Cliente"/>
@@ -56,6 +48,16 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
-<fullyQualifiedTypeName name="java.lang.Boolean"/>
 <fullyQualifiedTypeName name="br.com.elaborata.exercicios.Conta"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide15.Numero"/>
+<fullyQualifiedTypeName name="br.com.elaborata.slide15.Teclado"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="br.com.elaborata.java1.observable.Retangulo"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
