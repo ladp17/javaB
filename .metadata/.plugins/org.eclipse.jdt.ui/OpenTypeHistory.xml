@@ -2,4 +2,8 @@
 <typeInfoHistroy>
 <typeInfo handle="=ExercicioHerança/src&lt;br.com.elaborata{Veiculo.java[Veiculo" modifiers="1" timestamp="1566433887000"/>
 <typeInfo handle="=ObserverObservable/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.util(Observable.class[Observable" modifiers="33" timestamp="1469810950000"/>
+<typeInfo handle="=ObserverObservable/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.awt(Window.class[Window" modifiers="33" timestamp="1469810950000"/>
+<typeInfo handle="=ObserverObservable/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.awt.event(WindowAdapter.class[WindowAdapter" modifiers="1057" timestamp="1469810950000"/>
+<typeInfo handle="=ObserverObservable/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.awt(Frame.class[Frame" modifiers="33" timestamp="1469810950000"/>
+<typeInfo handle="=ObserverObservable/\/usr\/lib\/jvm\/java-8-oracle\/jre\/lib\/rt.jar&lt;java.util(Observer.class[Observer" modifiers="1537" timestamp="1469810950000"/>
 </typeInfoHistroy>
