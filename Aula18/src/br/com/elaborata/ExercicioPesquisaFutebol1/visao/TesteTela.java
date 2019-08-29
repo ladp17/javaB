@@ -16,7 +16,7 @@ public class TesteTela {
 	 */
 	public static void main(String[] args) {
 
-		new Tela();
+		new TelaQuestionario();
 		
 	}
 
